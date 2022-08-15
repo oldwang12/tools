@@ -12,8 +12,8 @@ func InitRouter() *gin.Engine {
 	v1 := r.Group("/api/v1")
 
 	{
-		base64 := v1.Group("/tools/base64")
-		base64.POST("/", controllers.Base64Msg)
+		base64 := v1.Group("/tools")
+		base64.POST("/base64", controllers.Base64Msg)
 	}
 
 	return r
