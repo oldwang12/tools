@@ -3,6 +3,7 @@ module github.com/oldwang12/tools
 go 1.17
 
 require (
+	github.com/apparentlymart/go-cidr v1.1.0
 	github.com/gin-gonic/gin v1.8.1
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/jinzhu/gorm v1.9.16
